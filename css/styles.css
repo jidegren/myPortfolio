@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+hr {
+  width: 6%;
+  border-style: dotted none none none;
+  border-top-width: 10px;
+  clear: both;
+  color: dimgray;
+  margin: 100px auto 100px auto;
+}
+p {
+  line-height: 2;
+  font-family: "Merriweather", serif;
+}
+a {
+  color: #798777;
+  margin: 20px;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #798777;
+
+  /* Man använder 562.5% ifall någon ändrar standardstorlek på texten i webläsaren så är
+  våran H1 också dynasik. 100% motsvarar 16px så 562.5% = 90px. Hade vi skrivit 90px hade inte våran storlek
+  på text ändrats om man ändrade inställningar. Man kan också använda 5.625em för att få det dynamiskt. 1rem = 16px*/
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #798777;
+  padding: 10px;
+}
+.underheading {
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #a2b29f;
+}
+.topcontainer {
+  background-color: #f8ede3;
+  position: relative;
+  padding-top: 100px;
+}
+.midcontainer {
+  margin: 100 0 100 0;
+}
+.bottom-container {
+  background-color: #bdd2b6;
+  padding: 30px 0 20px 0;
+  margin-bottom: 0;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profilepic {
+  height: 300px;
+  border-radius: 100%;
+}
+.development-img {
+  width: 25%;
+  float: left;
+  margin: 0 30px 60px 0;
+}
+
+.boardgame-img {
+  width: 25%;
+  float: right;
+  margin: 60px auto 100px 30px;
+}
+.skill-row {
+  width: 50%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+.btn {
+  background: #798777;
+  background-image: -webkit-linear-gradient(top, #798777, #798777);
+  background-image: -moz-linear-gradient(top, #798777, #798777);
+  background-image: -ms-linear-gradient(top, #798777, #798777);
+  background-image: -o-linear-gradient(top, #798777, #798777);
+  background-image: -webkit-gradient(to bottom, #798777, #798777);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 10px;
+  border: solid #798777 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px;
+}
+
+.btn:hover {
+  border: solid #7d8d7a 1px;
+  background: #515e50;
+  background-image: -webkit-linear-gradient(top, #515e50, #798777);
+  background-image: -moz-linear-gradient(top, #515e50, #798777);
+  background-image: -ms-linear-gradient(top, #515e50, #798777);
+  background-image: -o-linear-gradient(top, #515e50, #798777);
+  background-image: -webkit-gradient(to bottom, #515e50, #798777);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.boardgame-h3 {
+  clear: left;
+}
